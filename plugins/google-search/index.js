@@ -1,16 +1,11 @@
-export const slot = {
-  id: "google-redirect",
-  name: "Google Search",
-  position: "above-results",
-
-  trigger(query) {
-    return true;
-  },
-
-  async execute(query) {
-    var url = "https://www.google.com/search?q=" + query.replace(/ /g, "+");
-    return {
-      html: "<div><script>window.location.href='" + url + "';</script></div>"
-    };
+export const routes = [
+  {
+    path: "/search",
+    method: "GET",
+    handler(req, res) {
+      var query = req.query.q || "";
+      var url = "https://www.google.com/search?q=" + encodeURIComponent(query);
+      res.redirect(url);
+    }
   }
-};
+];
