@@ -72,6 +72,13 @@
       "description": "Shows an alert box",
       "version": "1.0.0",
       "type": "command"
+    },
+    {
+      "path": "plugins/coin-flip",
+      "name": "Coin Flip",
+      "description": "Flip a coin",
+      "version": "1.0.0",
+      "type": "command"
     }
   ]
 }
