@@ -1,0 +1,14 @@
+{
+  "name": "superdev-degoog-extensions",
+  "description": "Plugins and themes for degoog search.",
+  "author": "Supernova3339",
+  "plugins": [
+    {
+      "path": "plugins/google-search",
+      "name": "Google Search",
+      "description": "Search on Google",
+      "version": "1.0.0",
+      "type": "slot"
+    }
+  ]
+}
