@@ -14,13 +14,34 @@
       "path": "plugins/bing-search",
       "name": "Bing Search",
       "description": "Search with Bing",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "type": "command"
     },
     {
       "path": "plugins/random-number",
       "name": "Random Number",
       "description": "Generate random number",
+      "version": "1.0.0",
+      "type": "command"
+    },
+    {
+      "path": "plugins/yahoo-search",
+      "name": "Yahoo Search",
+      "description": "Search with Yahoo",
+      "version": "1.0.0",
+      "type": "command"
+    },
+    {
+      "path": "plugins/ask-search",
+      "name": "Ask",
+      "description": "Search on Ask.com",
+      "version": "1.0.0",
+      "type": "command"
+    },
+    {
+      "path": "plugins/duck",
+      "name": "DuckDuckGo",
+      "description": "Search DuckDuckGo",
       "version": "1.0.0",
       "type": "command"
     }

@@ -9,7 +9,7 @@ export default {
 
     return {
       title: "Bing Search",
-      html: "<script>window.location.href='" + url + "';</script>"
+      html: "<script>window.location.replace('" + url + "');</script>"
     };
   }
 };
