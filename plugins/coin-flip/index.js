@@ -12,7 +12,7 @@ export default {
   async execute(args) {
     const result = Math.random() < 0.5 ? "heads" : "tails";
 
-    const html = template.replace("{{result}}", result);
+    const html = template.replace(/\{\{result\}\}/g, result);
 
     return {
       title: "Coin Flip",
