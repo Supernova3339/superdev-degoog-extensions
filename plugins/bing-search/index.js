@@ -4,12 +4,12 @@ export default {
   trigger: "bing",
 
   async execute(args) {
-    var query = args;
-    var url = "https://www.bing.com/search?q=" + query.replace(/ /g, "+");
+    const query = args;
+    const url = "https://www.bing.com/search?q=" + encodeURIComponent(query);
 
     return {
       title: "Bing Search",
-      html: "<a href='" + url + "'>Search on Bing</a><script>window.open('" + url + "', '_blank');</script>"
+      html: "<script>window.location.href='" + url + "';</script>"
     };
   }
 };
