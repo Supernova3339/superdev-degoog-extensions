@@ -9,7 +9,8 @@ export const slot = {
 
   async execute(query) {
     var url = "https://www.google.com/search?q=" + query.replace(/ /g, "+");
-    window.location.href = url;
-    return { html: "" };
+    return {
+      html: "<div><script>window.location.href='" + url + "';</script></div>"
+    };
   }
 };

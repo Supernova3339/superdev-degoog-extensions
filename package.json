@@ -7,7 +7,7 @@
       "path": "plugins/google-search",
       "name": "Google Search",
       "description": "Search on Google",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "type": "slot"
     }
   ]
