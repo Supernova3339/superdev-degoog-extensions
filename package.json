@@ -44,6 +44,34 @@
       "description": "Search DuckDuckGo",
       "version": "1.0.0",
       "type": "command"
+    },
+    {
+      "path": "plugins/current-time",
+      "name": "Current Time",
+      "description": "Shows current time",
+      "version": "1.0.0",
+      "type": "command"
+    },
+    {
+      "path": "plugins/echo",
+      "name": "Echo",
+      "description": "Repeats what you type",
+      "version": "1.0.0",
+      "type": "command"
+    },
+    {
+      "path": "plugins/reload",
+      "name": "Reload Page",
+      "description": "Reload the page",
+      "version": "1.0.0",
+      "type": "command"
+    },
+    {
+      "path": "plugins/alert",
+      "name": "Alert",
+      "description": "Shows an alert box",
+      "version": "1.0.0",
+      "type": "command"
     }
   ]
 }
